@@ -80,7 +80,6 @@ namespace PilaAppEv2
         {
             listBoxPila.Items.Clear();
 
-            // Mostramos todos los elementos que hay en la pila
             foreach (string elemento in pila)
             {
                 listBoxPila.Items.Add(elemento);
