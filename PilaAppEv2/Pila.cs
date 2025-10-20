@@ -40,10 +40,8 @@ namespace PilaAppEv2
                 return;
             }
 
-            // Juntamos toda la información en una sola cadena
             string empleado = nombre + " - " + cargo + " - $" + salario;
 
-            // Agregamos el elemento a la pila
             pila.Push(empleado);
 
             lblMensaje.Text = "Empleado agregado.";

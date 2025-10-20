@@ -107,7 +107,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox textBox;
         private Button button1;
         private Button button2;
         private Button button3;
